@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent"
+    android:background="@drawable/game_background">
+    
+    <ImageView android:id="@+id/playing_game"
+        android:layout_width="148dip"
+        android:layout_height="40dip"
+        android:layout_x="150dip"
+        android:layout_y="140dip"
+        android:scaleType="fitXY"
+        android:src="@drawable/btn_playing_game_selector"/>
+    
+    <ImageView android:id="@+id/choosing_boat"
+        android:layout_width="148dip"
+        android:layout_height="40dip"
+        android:layout_x="370dip"
+        android:layout_y="140dip"
+        android:scaleType="fitXY"
+        android:src="@drawable/btn_choosing_boat_selector"/>
+    
+    <ImageView android:id="@+id/setting_sound"
+        android:layout_width="148dip"
+        android:layout_height="40dip"
+        android:layout_x="150dip"
+        android:layout_y="200dip"
+        android:scaleType="fitXY"
+        android:src="@drawable/btn_setting_sound_selector"/>
+    
+    <ImageView android:id="@+id/help"
+       android:layout_width="148dip"
+        android:layout_height="40dip"
+        android:layout_x="370dip"
+        android:layout_y="200dip"
+        android:scaleType="fitXY"
+        android:src="@drawable/btn_help_selector"/>
+    
+    <ImageView android:id="@+id/about"
+        android:layout_width="148dip"
+        android:layout_height="40dip"
+        android:layout_x="150dip"
+        android:layout_y="256dip"
+        android:scaleType="fitXY"
+        android:src="@drawable/btn_about_selector"/>
+    
+    <ImageView android:id="@+id/exit"
+        android:layout_width="148dip"
+        android:layout_height="40dip"
+        android:layout_x="370dip"
+        android:layout_y="256dip"
+        android:scaleType="fitXY"
+        android:src="@drawable/btn_exit_selector"/>
+    
+</AbsoluteLayout>
